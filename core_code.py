@@ -2,7 +2,7 @@ import urllib3
 import json
 
 http=urllib3.PoolManager()
-r3=http.request('GET','https://allsportsapi.com/api/football/?met=Livescore&APIkey=<your API key here>')
+r3=http.request('GET','https://allsportsapi.com/api/football/?met=Livescore&APIkey=<insert your API key here>')
 results=json.loads(r3.data.decode('utf-8'))
 
 counter=1
