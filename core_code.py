@@ -4,9 +4,6 @@ import os
 import sched, time
 from IPython.display import clear_output
 
-http=urllib3.PoolManager()
-r3=http.request('GET','https://allsportsapi.com/api/football/?met=Livescore&APIkey=<insert your API key here>')
-results=json.loads(r3.data.decode('utf-8'))
 
 def clear():
     os.system('cls')
@@ -18,6 +15,10 @@ counter=1
 def fetch(sc):
     global trigger
     global counter
+    http = urllib3.PoolManager()
+    r3 = http.request('GET', 'https://allsportsapi.com/api/football/?met=Livescore&APIkey=<insert your API key here>')
+    results = json.loads(r3.data.decode('utf-8'))
+
     clear_output(wait=True)
     os.system('cls')
     print(trigger)
@@ -42,7 +43,7 @@ def fetch(sc):
                 if(z['home_scorer']=="" and z['away_scorer']!=""):
                     away_scorer=z['away_scorer']
                     time_score=z['time']
-                    print(time_score+'  '+away_scorer)
+                    print(time_score+' '+away_scorer)
                 elif(z['home_scorer']!="" and z['away_scorer']==""):
                     home_scorer=z['home_scorer']
                     time_score=z['time']
@@ -53,5 +54,6 @@ def fetch(sc):
             print("\n")
     s.enter(1,1,fetch,(sc,))
     trigger+=1
+    counter=1
 s.enter(1,1,fetch,(s,))
 s.run()
