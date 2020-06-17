@@ -2,7 +2,7 @@ import urllib3
 import json
 import os
 import sched, time
-from Ipython.display import clear_output
+from IPython.display import clear_output
 
 http=urllib3.PoolManager()
 r3=http.request('GET','https://allsportsapi.com/api/football/?met=Livescore&APIkey=<insert your API key here>')
@@ -19,7 +19,7 @@ def fetch(sc):
     global trigger
     global counter
     clear_output(wait=True)
-    os.sytem('cls')
+    os.system('cls')
     print(trigger)
     x=len(results['result'])
     for i in range(0,x):
