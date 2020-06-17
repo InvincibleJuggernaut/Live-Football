@@ -1,5 +1,7 @@
 import urllib3
 import json
+import os
+import sched, time
 
 http=urllib3.PoolManager()
 r3=http.request('GET','https://allsportsapi.com/api/football/?met=Livescore&APIkey=<insert your API key here>')
