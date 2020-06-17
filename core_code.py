@@ -5,6 +5,10 @@ http=urllib3.PoolManager()
 r3=http.request('GET','https://allsportsapi.com/api/football/?met=Livescore&APIkey=<insert your API key here>')
 results=json.loads(r3.data.decode('utf-8'))
 
+def clear():
+    os.system('cls')
+s=sched.scheduler(time.time, time.sleep)
+trigger=1
 counter=1
 x=len(results['result'])
 for i in range(0,x):
