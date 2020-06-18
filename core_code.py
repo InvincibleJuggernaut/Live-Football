@@ -22,7 +22,7 @@ def fetch(sc):
     results = json.loads(r3.data.decode('utf-8'))
     
     if(len(results)==1):
-        print("NO MATCHES LIVE RIGHT NOW ?")
+        print("NO MATCHES LIVE RIGHT NOW !")
         sys.exit()
 
     clear_output(wait=True)
@@ -55,7 +55,7 @@ def fetch(sc):
                     time_score=z['time']
                     print(time_score+' '+home_scorer)
                 else:
-                    print("Scorers not available right now !")
+                    print("Verifying the scorer")
             counter+=1
             print("\n")
     s.enter(1,1,fetch,(sc,))
