@@ -2,11 +2,13 @@ import urllib3
 import json
 import os
 import sched, time
+import sys
 from IPython.display import clear_output
 
 
 def clear():
     os.system('cls')
+    
 s=sched.scheduler(time.time, time.sleep)
 
 trigger=1
@@ -18,6 +20,10 @@ def fetch(sc):
     http = urllib3.PoolManager()
     r3 = http.request('GET', 'https://allsportsapi.com/api/football/?met=Livescore&APIkey=<insert your API key here>')
     results = json.loads(r3.data.decode('utf-8'))
+    
+    if(len(results)==1):
+        print("NO MATCHES LIVE RIGHT NOW ?")
+        sys.exit()
 
     clear_output(wait=True)
     os.system('cls')
