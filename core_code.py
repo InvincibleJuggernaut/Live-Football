@@ -22,7 +22,7 @@ def fetch(sc):
     results = json.loads(r3.data.decode('utf-8'))
     
     if(len(results)==1):
-        print("NO MATCHES LIVE RIGHT NOW !")
+        print("NO LIVE MATCHES RIGHT NOW !")
         sys.exit()
 
     clear_output(wait=True)
