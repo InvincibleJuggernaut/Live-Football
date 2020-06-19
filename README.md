@@ -12,11 +12,14 @@ To check the league codes for specific leagues, check this <a href="https://alls
   ```
   git clone https://github.com/InvincibleJuggernaut/Live-Football.git
   ```
-<br>
-  <li> Open the repository files open terminal in the same location</li>
   <br>
-  <li> Run the program using</li><br>
-  
+  <li> Open the repository folder and open the file <i>core_code.py</i> and insert your API key in the code where its needed.</li>
+  <br>
+  <li> Save the code and go back to the repository</li>
+  <br>
+  <li> Now, open the terminal inside the repository folder</li>
+  <br>
+  <li> Run the program using</li><br>  
 ```
 python core_code.py
 ```
