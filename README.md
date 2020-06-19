@@ -20,6 +20,7 @@ To check the league codes for specific leagues, check this <a href="https://alls
   <li> Now, open the terminal inside the repository folder</li>
   <br>
   <li> Run the program using</li><br>  
+
 ```
 python core_code.py
 ```
