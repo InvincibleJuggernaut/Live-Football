@@ -1,11 +1,31 @@
 # Live-Football
 A tool to fetch the live scores from the football matches around the world
 
-To know more details about how to get specific results, check this <a href="https://allsportsapi.com/soccer-football-api-documentation">documentation</a>.<br>
-To check the league codes for specific leagues, check this <a href="https://allsportsapi.com/soccer-football-api-coverage">link</a>.
 
 <h1>Usage</h1>
 
+<p> This program makes use of <a href="https://allsportsapi.com/">All Sports API</a>. 
+<p> The standard API key for LIVE results is of the form : 
+  
+  ```
+  https://allsportsapi.com/api/football/?met=Livescore&APIkey=<insert your API key here>
+  ```
+<p> That said, the URL can be tweaked to get other statistics as well. If you want results from specific leagues, then append <i>&leagueId=</i> after <i>?met=Livescore</i> followed by the actual id. Similarly, the results can be refined according to the user's needs. To know more details about how to get specific results, check this <a href="https://allsportsapi.com/soccer-football-api-documentation">documentation</a>.<br>
+
+
+<p> For reference, I am adding the leagueId for the top 5 leagues:</p><br>
+  
+  ``` 
+  English Premier League - #148 
+  Spanish LaLiga         - #468
+  Serie A                - #262
+  Bundesliga             - #195
+  Ligue 1                - #176
+  ```
+<br>
+<p> To check the league codes for specific leagues, check this <a href="https://allsportsapi.com/soccer-football-api-coverage">link</a>.</p>
+
+<br><p> Once, you get your API, you can proceed to the following</p>
 <ol type="I">
   <li> Clone or download the repository in your preferred directory</li><br>
 
