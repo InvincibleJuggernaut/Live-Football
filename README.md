@@ -10,7 +10,12 @@ A tool to fetch the live scores from the football matches around the world
   ```
   https://allsportsapi.com/api/football/?met=Livescore&APIkey=<insert your API key here>
   ```
-<p> That said, the URL can be tweaked to get other statistics as well. If you want results from specific leagues, then append <i>&leagueId=</i> after <i>?met=Livescore</i> followed by the actual id. Similarly, the results can be refined according to the user's needs. To know more details about how to get specific results, check this <a href="https://allsportsapi.com/soccer-football-api-documentation">documentation</a>.<br>
+<p> That said, the URL can be tweaked to get other statistics as well. If you want results from specific leagues, then append <i>&leagueId=</i> after <i>?met=Livescore</i> followed by the actual id. For example, if you want to get scores from the English Premier League only, then your API call would look something like this :</p>
+
+  ```
+  https://allsportsapi.com/api/football/?met=Livescore&leagueId=148&APIkey=<insert your API key here>
+  ```
+<p> Similarly, the results can be refined according to the user's needs. To know more details about how to get specific results, check this <a href="https://allsportsapi.com/soccer-football-api-documentation">documentation</a>.</p><br>
 
 
 <p> For reference, I am adding the leagueId for the top 5 leagues:</p><br>
