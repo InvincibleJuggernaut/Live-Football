@@ -17,7 +17,7 @@ A tool to fetch the live scores from the football matches around the world
   ```
 <p> Similarly, the results can be refined according to the user's needs. To know more details about how to get specific results, check this <a href="https://allsportsapi.com/soccer-football-api-documentation">documentation</a>.</p>
 
-<p> For reference, I am adding the leagueId for the top 5 leagues:</p><br>
+<p> For reference, I am adding the leagueId for the top 5 leagues:</p>
   
   ``` 
   English Premier League - #148 
