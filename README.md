@@ -1,6 +1,6 @@
+<a href="">
+<img src="Assets/logo.png" alt="Live-Footabll logo" title="" align="right" height="150" widht="150"></a>
 # Live-Football
-A tool to fetch the live scores from the football matches around the world
-
 
 <h1>Usage</h1>
 
