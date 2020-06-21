@@ -1,7 +1,7 @@
+# Live-Football
 <a href="">
-<img src="Assets/logo.png" alt="Live-Footabll logo" title="" align="right" height="150" widht="150"></a>
-<h1>Live-Football</h1>
-
+<img src="Assets/logo.png" alt="Live-Footabll logo" title="" align="right" height="200" widht="200"></a>
+<p>A tool to fetch the live scores from the football matches around the world</p>
 <h1>Usage</h1>
 
 <p> This program makes use of <a href="https://allsportsapi.com/">All Sports API</a>. 
