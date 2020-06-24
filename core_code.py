@@ -44,16 +44,15 @@ def fetch(sc):
             #print("VENUE :", venue)
             print(home_team+' | '+score+' | '+away_team)
             print("STATUS : ", time)
-            #print(venue)
             for z in results['result'][i]['goalscorers']:
                 if(z['home_scorer']=="" and z['away_scorer']!=""):
                     away_scorer=z['away_scorer']
                     time_score=z['time']
-                    print(time_score+' '+away_scorer)
+                    print(time_score+' '+away_scorer+' ( '+ away_team+' ) ')
                 elif(z['home_scorer']!="" and z['away_scorer']==""):
                     home_scorer=z['home_scorer']
                     time_score=z['time']
-                    print(time_score+' '+home_scorer)
+                    print(time_score+' '+home_scorer+' ( '+ home_team+' ) ')
                 else:
                     print("Verifying the scorer")
             counter+=1
