@@ -29,7 +29,8 @@
 
 <p> To check the league codes for specific leagues, check this <a href="https://allsportsapi.com/soccer-football-api-coverage">link</a>.</p>
 
-<br><p> Once, you get your API, you can proceed to the following</p>
+<h1>Installation</h1>
+<p> Once, you get your API, you can proceed to the following</p>
 <ol type="I">
   <li> Clone or download the repository in your preferred directory</li><br>
 
