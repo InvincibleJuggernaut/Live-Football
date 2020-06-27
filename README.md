@@ -2,6 +2,33 @@
 <img src="Assets/logo.png" alt="Live-Footabll logo" title="" align="right" height="200" widht="200"></a>
 <h1>Live-Football</h1>
 <p>A tool to fetch the live scores from the football matches around the world</p>
+<br>
+<h1>Pre-requisites</h1>
+<p> First, you need to sign up <a href="https://allsportsapi.com">here</a>. Create an account and store your API key somewhere accessible. There are various plans depending on the usage while the free trial only supports two random leagues which don't seem to be random at all ! They are always the same two leagues with very limited audience. But, one can sign up for their best plan as on a trial basis with no credit card details or such. Once that plan expires, you could again sign up with a new account. Yeah, I agree that doesn't seem to be very convenient.</p>
+<br>  
+<h1>Installation</h1>
+<p> Once, you get your API, you can proceed to the following</p>
+<ol type="I">
+  <li> Clone or download the repository in your preferred directory</li><br>
+
+  ```
+  git clone https://github.com/InvincibleJuggernaut/Live-Football.git
+  ```
+  <br>
+  <li> Open the repository folder and open the file <i>core_code.py</i> and insert your API key in the code where its needed.</li>
+  <br>
+  <li> Save the code and go back to the repository</li>
+  <br>
+  <li> Now, open the terminal inside the repository folder</li>
+  <br>
+  <li> Run the program using</li><br>  
+
+```
+python core_code.py
+```
+
+</ol>
+<br>
 <h1>Usage</h1>
 
 <p> This program makes use of <a href="https://allsportsapi.com/">All Sports API</a>. 
@@ -28,25 +55,11 @@
   ```
 
 <p> To check the league codes for specific leagues, check this <a href="https://allsportsapi.com/soccer-football-api-coverage">link</a>.</p>
-
-<h1>Installation</h1>
-<p> Once, you get your API, you can proceed to the following</p>
-<ol type="I">
-  <li> Clone or download the repository in your preferred directory</li><br>
-
-  ```
-  git clone https://github.com/InvincibleJuggernaut/Live-Football.git
-  ```
-  <br>
-  <li> Open the repository folder and open the file <i>core_code.py</i> and insert your API key in the code where its needed.</li>
-  <br>
-  <li> Save the code and go back to the repository</li>
-  <br>
-  <li> Now, open the terminal inside the repository folder</li>
-  <br>
-  <li> Run the program using</li><br>  
-
-```
-python core_code.py
-```
-</ol>
+<br>
+<h1> Future Plans </h1>
+<ul type="disc">
+  <li>It would be better to give up the API itself and fetch the scores without using any API at all. That would eliminate hassle on the user side regarding signing-up with the service.</li>
+  <li>Having the scores displayed in a more user-friendly window would be more appealing instead of terminal.</li>
+  <li>Getting optional notifications when a major event occurs during a match i.e goal scored, a red card or an injury</li>
+</ul>
+ 
