@@ -7,7 +7,7 @@
 <p> First, you need to sign up <a href="https://allsportsapi.com">here</a>. Create an account and store your API key somewhere accessible. There are various plans depending on the usage while the free trial only supports two random leagues which don't seem to be random at all ! They are always the same two leagues with very limited audience. But, one can sign up for their best plan as on a trial basis with no credit card details or such. Once that plan expires, you could again sign up with a new account. Yeah, I agree that doesn't seem to be very convenient.</p>
 <br>  
 <h1>Installation</h1>
-<p> Once, you get your API, you can proceed to the following.</p>
+<p> Once, you get your API key, you can proceed to the following.</p>
 
 <p>Clone or download the repository in your preferred directory :</p>
 
