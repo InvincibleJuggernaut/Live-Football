@@ -7,15 +7,18 @@
 <p> First, you need to sign up <a href="https://allsportsapi.com">here</a>. Create an account and store your API key somewhere accessible. There are various plans depending on the usage while the free trial only supports two random leagues which don't seem to be random at all ! They are always the same two leagues with very limited audience. But, one can sign up for their best plan as on a trial basis with no credit card details or such. Once that plan expires, you could again sign up with a new account. Yeah, I agree that doesn't seem to be very convenient.</p>
 <br>  
 <h1>Installation</h1>
-<p> Once, you get your API, you can proceed to the following</p>
-<ol type="I">
-  <li> Clone or download the repository in your preferred directory</li><br>
+<p> Once, you get your API, you can proceed to the following.</p>
+
+<p>Clone or download the repository in your preferred directory :</p>
 
   ```
   git clone https://github.com/InvincibleJuggernaut/Live-Football.git
   ```
   <br>
-  <li> Open the repository folder and open the file <i>core_code.py</i> and insert your API key in the code where its needed.</li>
+  
+<h1>Usage</h1>
+<ol type="I">
+  <li> Open the local repository folder and open the file <i>core_code.py</i> and insert your API key in the code where its needed.</li>
   <br>
   <li> Save the code and go back to the repository</li>
   <br>
@@ -27,9 +30,8 @@
 python core_code.py
 ```
 
-</ol>
-<br>
-<h1>Usage</h1>
+ </ol>
+ <br>
 
 <p> This program makes use of <a href="https://allsportsapi.com/">All Sports API</a>. 
 <p> The standard API key for LIVE results is of the form : 
