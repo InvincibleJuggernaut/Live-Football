@@ -1,12 +1,13 @@
+# Live-Football
 <a href="">
 <img src="Assets/logo.png" alt="Live-Footabll logo" title="" align="right" height="200" widht="200"></a>
-<h1>Live-Football</h1>
+
 <p>A tool to fetch the live scores from the football matches around the world</p>
 <br>
-<h1>Pre-requisites</h1>
+<h2>Pre-requisites</h2>
 <p> First, you need to sign up <a href="https://allsportsapi.com">here</a>. Create an account and store your API key somewhere accessible. There are various plans depending on the usage while the free trial only supports two random leagues which don't seem to be random at all ! They are always the same two leagues with very limited audience. But, one can sign up for their best plan as on a trial basis with no credit card details or such. Once that plan expires, you could again sign up with a new account. Yeah, I agree that doesn't seem to be very convenient.</p>
 <br>  
-<h1>Installation</h1>
+<h2>Installation</h2>
 <p> Once, you get your API key, you can proceed to the following.</p>
 
 <p>Clone or download the repository in your preferred directory :</p>
@@ -16,7 +17,7 @@
   ```
   <br>
   
-<h1>Usage</h1>
+<h2>Usage</h2>
 <ol type="I">
   <li> Open the local repository folder and open the file <i>core_code.py</i> and insert your API key in the code where its needed.</li>
   <br>
@@ -58,7 +59,7 @@ python core_code.py
 
 <p> To check the league codes for specific leagues, check this <a href="https://allsportsapi.com/soccer-football-api-coverage">link</a>.</p>
 <br>
-<h1> Future Plans </h1>
+<h2> Future Plans </h2>
 <ul type="disc">
   <li>It would be better to give up the API itself and fetch the scores without using any API at all. That would eliminate hassle on the user side regarding signing-up with the service.</li>
   <li>Having the scores displayed in a more user-friendly window would be more appealing instead of terminal.</li>
