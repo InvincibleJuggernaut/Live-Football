@@ -58,6 +58,13 @@ python core_code.py
   ```
 
 <p> To check the league codes for specific leagues, check this <a href="https://allsportsapi.com/soccer-football-api-coverage">link</a>.</p>
+
+<p> This repository also contains a file <i>code_gui.py</i> which does the same task but displays the scores in a GUI. The interface isn't that polished though, so I won't recommend using that one yet. But, if you still want to try it out, follow the same steps as above until III and in step IV, run the file using:
+
+```
+python code_gui.py
+```
+
 <br>
 <h2> Future Plans </h2>
 <ul type="disc">
