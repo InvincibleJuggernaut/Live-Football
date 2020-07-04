@@ -27,21 +27,15 @@ def fetch(sc):
 
     clear_output(wait=True)
     os.system('cls')
-    print(trigger)
     x=len(results['result'])
     for i in range(0,x):
-        if (results['result'][i]['event_live']=="1" and results['result'][i]['event_status']!=""):
+        if (results['result'][i]['event_live']=="1" and results['result'][i]['event_status']!="" and results['result'][i]['event_status']!="FRO"):
             print("MATCH",counter)
             home_team=results['result'][i]['event_home_team']
             away_team=results['result'][i]['event_away_team']
             score=results['result'][i]['event_final_result']
             time=results['result'][i]['event_status']
             venue=results['result'][i]['event_stadium']
-            #print("HOME TEAM : ",home_team)
-            #print("AWAY TEAM : ",away_team)
-            #print("SCORE : ",score)
-            #print("TIME : ",time)
-            #print("VENUE :", venue)
             print(home_team+' | '+score+' | '+away_team)
             print("STATUS : ", time)
             for z in results['result'][i]['goalscorers']:
