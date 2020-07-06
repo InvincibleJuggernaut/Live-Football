@@ -64,6 +64,7 @@ python core_code.py
 ```
 python code_gui.py
 ```
+![Program][Assets/Program_in_action_I.png "Working program"]
 
 <br>
 <h2> Future Plans </h2>
