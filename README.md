@@ -64,6 +64,7 @@ python core_code.py
 ```
 python code_gui.py
 ```
+<br>
 <p align="center">
     <img src="Assets/Program_in_action_I.png" align="middle" alt="Running the program">
 </p>
