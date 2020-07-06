@@ -64,7 +64,15 @@ python core_code.py
 ```
 python code_gui.py
 ```
-![Program][Assets/Program_in_action_I.png "Working program"]
+<p align="center">
+    <img src="Assets/Program_in_action_I.png" align="middle" alt="Running the program">
+</p>
+<p align="center">
+  <img src="Assets/Program_in_action_II.png" align="middle" alt="Running the program">
+</p>
+
+
+
 
 <br>
 <h2> Future Plans </h2>
