@@ -3,7 +3,7 @@
 <h1>Live-Football</h1>
 
 <p>A tool to fetch the live scores from the football matches around the world.</p>
-<br>
+
 
 <a href="https://www.python.org">
 <img src="https://img.shields.io/badge/MADE%20WITH%20-Python-blueviolet" height="20">
@@ -13,10 +13,9 @@
 </a>
 
 
-
 <h2>Pre-requisites</h2>
 <p> First, you need to sign up <a href="https://allsportsapi.com">here</a>. Create an account and store your API key somewhere accessible. There are various plans depending on the usage while the free trial only supports two random leagues which don't seem to be random at all ! They are always the same two leagues with very limited audience. But, one can sign up for their best plan as on a trial basis with no credit card details or such. Once that plan expires, you could again sign up with a new account. Yeah, I agree that doesn't seem to be very convenient.</p>
-<br>  
+
 <h2>Installation</h2>
 <p> Once, you get your API key, you can proceed to the following.</p>
 
@@ -25,7 +24,6 @@
   ```
   git clone https://github.com/InvincibleJuggernaut/Live-Football.git
   ```
-  <br>
   
 <h2>Usage</h2>
 <ol type="I">
@@ -35,14 +33,13 @@
   <br>
   <li> Now, open the terminal inside the repository folder</li>
   <br>
-  <li> Run the program using</li><br>  
+  <li> Run the program using</li>
 
 ```
 python core_code.py
 ```
 
  </ol>
- <br>
 
 <p> This program makes use of <a href="https://allsportsapi.com/">All Sports API</a>. 
 <p> The standard API key for LIVE results is of the form : 
@@ -74,7 +71,7 @@ python core_code.py
 ```
 python code_gui.py
 ```
-<br>
+
 <p align="center">
     <img src="Assets/Program_in_action_I.png" align="middle" alt="Running the program">
 </p>
@@ -82,10 +79,6 @@ python code_gui.py
   <img src="Assets/Program_in_action_II.png" align="middle" alt="Running the program">
 </p>
 
-
-
-
-<br>
 <h2> Future Plans </h2>
 <ul type="disc">
   <li>It would be better to give up the API itself and fetch the scores without using any API at all. That would eliminate hassle on the user side regarding signing-up with the service.</li>
