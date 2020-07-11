@@ -92,4 +92,7 @@ python code_gui.py
   <li>Having the scores displayed in a more user-friendly window would be more appealing instead of terminal.</li>
   <li>Getting optional notifications when a major event occurs during a match i.e goal scored, a red card or an injury.</li>
 </ul>
+
+<h2>License</h2>
+<a href="LICENSE">MIT License</a>
  
