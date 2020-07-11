@@ -4,6 +4,16 @@
 
 <p>A tool to fetch the live scores from the football matches around the world.</p>
 <br>
+
+<a href="https://www.python.org">
+<img src="https://img.shields.io/badge/MADE%20WITH%20-Python-blueviolet" height="20">
+</a>
+<a href="LICENSE">
+<img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" height="20">
+</a>
+
+
+
 <h2>Pre-requisites</h2>
 <p> First, you need to sign up <a href="https://allsportsapi.com">here</a>. Create an account and store your API key somewhere accessible. There are various plans depending on the usage while the free trial only supports two random leagues which don't seem to be random at all ! They are always the same two leagues with very limited audience. But, one can sign up for their best plan as on a trial basis with no credit card details or such. Once that plan expires, you could again sign up with a new account. Yeah, I agree that doesn't seem to be very convenient.</p>
 <br>  
