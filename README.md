@@ -11,6 +11,7 @@
 <a href="LICENSE">
 <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" height="20">
 </a>
+<br>
 
 
 <h2>Pre-requisites</h2>
