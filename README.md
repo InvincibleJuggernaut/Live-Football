@@ -81,9 +81,11 @@ python code_gui.py
 </p>
 
 <h2> Future Plans </h2>
-- [ ] It would be better to give up the API itself and fetch the scores without using any API at all. That would eliminate hassle on the user side regarding signing-up with the service.
+
+- [ ] It would be better to give up the API itself and fetch the scores without using any API at all. 
 - [ ] Having the scores displayed in a more user-friendly window would be more appealing instead of terminal.
 - [ ] Getting optional notifications when a major event occurs during a match i.e goal scored, a red card or an injury.
+
 
 <h2>License</h2>
 <a href="LICENSE">MIT License</a>
