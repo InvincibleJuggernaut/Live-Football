@@ -1,5 +1,5 @@
 <a href="">
-<img src="Assets/logo.png" alt="Live-Footabll logo" title="" align="right" height="200" widht="200"></a>
+<img src="Assets/logo.png" alt="Live-Footabll logo" title="" align="right" height="200" width="200"></a>
 <h1>Live-Football</h1>
 
 <p>A tool to fetch the live scores from the football matches around the world.</p>
